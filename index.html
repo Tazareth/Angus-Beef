@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>My Data</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="myjavascript.js">
+		</script>
+	</head>
+	<body>		
+		<div class="main">
+			<div class="row1">
+				<img src="Carl.jpg"/>
+			</div>
+			<div class="row2">
+				<div class="row2col1">
+					Navigation
+					<hr align="left" width=75%>						
+						<ul>
+							<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About Me</a></li>
+							<li><a href="http://www.google.com">Google</a></li>
+						</ul>
+				</div>
+				<div class="row2col2"><p class="welcome" id="greeting">
+				Hi! Welcome to my site!
+<?php
+	echo "It's PHP!";
+?>
+				<form>
+					<b id="errorMsg">Name:</b>
+					<input type="text" id="nameCheck" />
+					<input type="button" value="Click Me" onClick="clicked()" />
+				</form>
+				</p><p class="content" >This page is a work in progress that is being used to learn how to use html, css, and javascript! Thanks for visiting!</p>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>
